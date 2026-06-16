@@ -1,7 +1,6 @@
-```md
 <div align="center">
 
-<img src="./assets/medilq-logo.svg" alt="MedilQ Logo" width="140"/>
+<img src="./assets/medilq-logo.svg" alt="MedilQ Logo" width="130">
 
 # MedilQ
 
@@ -16,11 +15,9 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![MIT License](https://img.shields.io/badge/License-MIT-success?style=for-the-badge)
 
----
+### Modernizing Pharmacy Operations Through Smart Inventory Management
 
-### Modernizing Pharmacy Operations Through Intelligent Inventory Management
-
-*A scalable inventory management solution designed to simplify medicine tracking, supplier management, stock monitoring, and purchase reporting.*
+*Manage Medicines • Track Suppliers • Monitor Inventory • Generate Reports*
 
 </div>
 
@@ -28,53 +25,26 @@
 
 # 📖 Overview
 
-MedilQ is a modern **Medical Store Inventory Management System** developed to streamline pharmacy operations through intelligent inventory tracking, supplier management, and organized purchase reporting.
+MedilQ is a comprehensive Medical Store Inventory Management System designed to simplify pharmacy operations through efficient medicine inventory tracking, supplier management, stock monitoring, and purchase reporting.
 
-The application provides a centralized platform for maintaining medicine records, monitoring stock availability, managing supplier information, and generating daily purchase reports. Built with **Java, MySQL, HTML, CSS, and JavaScript**, MedilQ demonstrates modular software architecture, CRUD operations, and efficient relational database design.
+The application provides an organized platform for managing medicines, suppliers, inventory records, and daily purchase reports while reducing manual effort and improving business productivity.
 
-Whether it's a small pharmacy or a growing medical store, MedilQ helps reduce manual work, improve inventory accuracy, and enhance operational efficiency.
-
----
-
-# ✨ Key Highlights
-
-- 📦 Smart Medicine Inventory Management
-- 🤝 Supplier & Vendor Management
-- 📊 Real-Time Stock Monitoring
-- 🔍 Fast Search & Record Management
-- 🗄️ MySQL Database Integration
-- ⚙️ Modular Java Architecture
-- 🚀 Clean & Scalable Project Structure
-- 💼 Business-Oriented Workflow
+Built using Java, MySQL, HTML, CSS, and JavaScript, MedilQ demonstrates modular software architecture, CRUD operations, and efficient relational database management.
 
 ---
 
-# 💼 Business Challenge
-
-Traditional medical stores often rely on manual inventory systems that can lead to:
-
-- Medicine stock inconsistencies
-- Time-consuming supplier management
-- Delayed purchase tracking
-- Duplicate inventory records
-- Increased operational errors
-
-MedilQ digitizes the complete workflow by providing a centralized and structured inventory management system that improves business productivity and data accuracy.
-
----
-
-# 🌟 Features
+# ✨ Key Features
 
 | Module | Description |
-|-----------------------------|-----------------------------------------------------------|
-| 📦 Medicine Management | Add, update, delete and search medicine records |
-| 📊 Inventory Control | Monitor stock availability and inventory status |
-| 🤝 Supplier Management | Maintain supplier information and medicine mapping |
-| 📈 Purchase Reports | Generate organized daily purchase reports |
-| 🔍 Smart Search | Quickly locate medicines and suppliers |
-| 🔐 Secure Login | Simple authentication system |
-| 🗄️ Database Integration | Structured MySQL data management |
-| ⚙️ CRUD Operations | Complete Create, Read, Update & Delete functionality |
+| ---------------------------- | -------------------------------------------- |
+| 📦 Medicine Management | Add, Update, Delete & Search Medicines |
+| 📊 Inventory Control | Monitor Medicine Stock |
+| 🤝 Supplier Management | Manage Supplier Records |
+| 📈 Purchase Reports | Daily Purchase Analytics |
+| 🔍 Smart Search | Quick Record Lookup |
+| 🔐 Login System | Secure User Authentication |
+| 🗄️ Database Integration | MySQL Based Storage |
+| ⚙️ CRUD Operations | Complete Data Management |
 
 ---
 
@@ -83,7 +53,7 @@ MedilQ digitizes the complete workflow by providing a centralized and structured
 ## 🔐 Login Screen
 
 <p align="center">
-<img src="./screenshots/login.png" width="900"/>
+<img src="./screenshots/login.png" width="900">
 </p>
 
 ---
@@ -91,7 +61,7 @@ MedilQ digitizes the complete workflow by providing a centralized and structured
 ## 📊 Dashboard
 
 <p align="center">
-<img src="./screenshots/dashboard.png" width="900"/>
+<img src="./screenshots/dashboard.png" width="900">
 </p>
 
 ---
@@ -99,7 +69,7 @@ MedilQ digitizes the complete workflow by providing a centralized and structured
 ## 💊 Medicine Management
 
 <p align="center">
-<img src="./screenshots/medicine-management.png" width="900"/>
+<img src="./screenshots/medicine-management.png" width="900">
 </p>
 
 ---
@@ -107,7 +77,7 @@ MedilQ digitizes the complete workflow by providing a centralized and structured
 ## 🤝 Supplier Management
 
 <p align="center">
-<img src="./screenshots/supplier-management.png" width="900"/>
+<img src="./screenshots/supplier-management.png" width="900">
 </p>
 
 ---
@@ -115,12 +85,12 @@ MedilQ digitizes the complete workflow by providing a centralized and structured
 ## 📈 Purchase Report
 
 <p align="center">
-<img src="./screenshots/purchase-report.png" width="900"/>
+<img src="./screenshots/purchase-report.png" width="900">
 </p>
 
 ---
-```
-````md
+
+
 # 🏗️ System Architecture
 
 ```text
@@ -134,7 +104,7 @@ MedilQ digitizes the complete workflow by providing a centralized and structured
 
                              │
 
-                  Business Logic Layer
+                   Business Logic Layer
 
                              │
 
@@ -164,16 +134,30 @@ MedilQ digitizes the complete workflow by providing a centralized and structured
 
 # 🛠️ Technology Stack
 
-| Category | Technology |
-| ------------------------- | ----------------------------- |
-| Programming Language | Java |
-| Database | MySQL |
-| Frontend | HTML5 |
-| Styling | CSS3 |
-| Client Scripting | JavaScript |
-| Database Language | SQL |
-| IDE | NetBeans / Eclipse |
-| Version Control | Git & GitHub |
+| Category             | Technology         |
+| -------------------- | ------------------ |
+| Programming Language | Java               |
+| Database             | MySQL              |
+| Frontend             | HTML5              |
+| Styling              | CSS3               |
+| Client Scripting     | JavaScript         |
+| Database Language    | SQL                |
+| IDE                  | NetBeans / Eclipse |
+| Version Control      | Git & GitHub       |
+
+---
+
+# 📊 Project Statistics
+
+| Property       | Details                  |
+| -------------- | ------------------------ |
+| Project Type   | Desktop Application      |
+| Domain         | Healthcare / Pharmacy    |
+| Architecture   | Modular Java Application |
+| Database       | MySQL                    |
+| Design Pattern | CRUD-Based System        |
+| License        | MIT                      |
+| Status         | Active Development       |
 
 ---
 
@@ -248,19 +232,19 @@ Import the following SQL file into your local MySQL server.
 database/medical_store.sql
 ```
 
-Create a database and execute the SQL script to generate the required tables.
+Create a new database and execute the SQL script to generate all required tables.
 
 ---
 
-# 💻 Run the Application
+# 💻 Running the Application
 
-Compile Java source files
+### Compile Java Files
 
 ```bash
 javac *.java
 ```
 
-Run the application
+### Run the Application
 
 ```bash
 java Login
@@ -270,152 +254,136 @@ java Login
 
 # 🎯 Functional Modules
 
-## 📦 Medicine Module
+## 📦 Medicine Management
 
-- Add New Medicine
-- Update Medicine
-- Delete Medicine
-- Search Medicine
-- Medicine List
-
----
-
-## 🤝 Supplier Module
-
-- Add New Supplier
-- Update Supplier
-- Delete Supplier
-- Search Supplier
-- Supplier List
-- Supplier-wise Medicine List
+* Add Medicine
+* Update Medicine
+* Delete Medicine
+* Search Medicine
+* Medicine List
 
 ---
 
-## 📊 Reports Module
+## 🤝 Supplier Management
 
-- Daily Purchase Report
-- Inventory Records
-- Stock Monitoring
-- Purchase History
+* Add Supplier
+* Update Supplier
+* Delete Supplier
+* Search Supplier
+* Supplier List
+* Supplier-wise Medicine List
+
+---
+
+## 📈 Reports
+
+* Daily Purchase Report
+* Inventory Monitoring
+* Purchase Records
+* Stock Management
 
 ---
 
 # 🎓 Learning Outcomes
 
-This project demonstrates practical implementation of:
+This project demonstrates practical understanding of:
 
-- Object-Oriented Programming
-- Java Desktop Development
-- Relational Database Design
-- CRUD Operations
-- Inventory Management Systems
-- Software Engineering Principles
-- MySQL Integration
-- Modular Application Architecture
+* Object-Oriented Programming (OOP)
+* Java Desktop Application Development
+* Relational Database Design
+* CRUD Operations
+* Inventory Management Systems
+* Software Engineering Principles
+* MySQL Integration
+* Modular Application Architecture
 
 ---
-````
 
-````md
-# 🛣️ Product Roadmap
 
-The following features are planned for future releases to make **MedilQ** a complete pharmacy management solution.
+
+# 🛣️ Future Roadmap
+
+MedilQ is designed with scalability in mind. The following features are planned for future releases:
 
 ### 📦 Inventory Enhancements
 
-- ✅ Barcode Scanner Integration
-- ✅ QR Code Medicine Lookup
-- ✅ Automatic Stock Updates
-- ✅ Low Stock Notifications
+* ✅ Barcode Scanner Integration
+* ✅ QR Code Medicine Lookup
+* ✅ Automatic Stock Updates
+* ✅ Low Stock Notifications
 
 ### 💼 Business Features
 
-- ✅ GST Billing System
-- ✅ Invoice Generation
-- ✅ Sales & Purchase Analytics
-- ✅ Customer Management
+* ✅ GST Billing System
+* ✅ Invoice Generation
+* ✅ Customer Management
+* ✅ Sales & Purchase Analytics
 
-### 🔐 Security
+### 🔐 Security & Management
 
-- ✅ Role-Based Authentication
-- ✅ Admin & Staff Access Control
-- ✅ Activity Logs
-- ✅ Secure Database Backup
+* ✅ Role-Based Authentication
+* ✅ Admin & Staff Dashboard
+* ✅ Activity Logs
+* ✅ Secure Database Backup
 
 ### ☁️ Cloud Integration
 
-- ✅ Cloud Database Support
-- ✅ Multi-Store Inventory Management
-- ✅ Online Backup & Synchronization
-- ✅ Web Dashboard
+* ✅ Cloud Database Support
+* ✅ Multi-Store Inventory Management
+* ✅ Online Synchronization
+* ✅ Web-Based Dashboard
 
 ### 🤖 AI Features
 
-- ✅ AI Stock Prediction
-- ✅ Demand Forecasting
-- ✅ Smart Purchase Recommendations
-- ✅ Medicine Expiry Prediction
-
----
-
-# 📊 Project Statistics
-
-| Property | Details |
-|--------------------------|---------------------------|
-| Project Type | Desktop Application |
-| Domain | Healthcare / Pharmacy |
-| Architecture | Modular Java Application |
-| Database | MySQL |
-| Design Pattern | CRUD-Based Management |
-| Version Control | Git & GitHub |
-| License | MIT |
+* ✅ AI Stock Prediction
+* ✅ Medicine Demand Forecasting
+* ✅ Smart Purchase Recommendations
+* ✅ Medicine Expiry Alerts
 
 ---
 
 # 🌟 Why MedilQ?
 
-MedilQ is designed to simplify pharmacy inventory operations by providing a centralized platform for medicine tracking, supplier management, and purchase reporting.
+MedilQ is built to simplify medical store operations by providing an intelligent and centralized inventory management solution.
 
 ### Key Benefits
 
-- 📦 Organized Medicine Inventory
-- 🤝 Efficient Supplier Management
-- 📈 Better Business Insights
-- ⚡ Faster Search Operations
-- 🗄️ Reliable Database Management
-- 🚀 Scalable Software Architecture
+* 📦 Organized Medicine Inventory
+* 🤝 Efficient Supplier Management
+* 📊 Better Business Insights
+* ⚡ Faster Search Operations
+* 🗄️ Reliable Database Management
+* 🚀 Modular & Scalable Architecture
 
 ---
 
 # 🤝 Contributing
 
-Contributions are welcome!
+Contributions, suggestions, and improvements are welcome.
 
-If you would like to improve MedilQ:
+### 1️⃣ Fork the Repository
 
-### 1. Fork the Repository
-
-### 2. Create a New Branch
+### 2️⃣ Create a Feature Branch
 
 ```bash
 git checkout -b feature/new-feature
 ```
 
-### 3. Commit Your Changes
+### 3️⃣ Commit Your Changes
 
 ```bash
 git commit -m "feat: add new feature"
 ```
 
-### 4. Push to GitHub
+### 4️⃣ Push to GitHub
 
 ```bash
 git push origin feature/new-feature
 ```
 
-### 5. Open a Pull Request
+### 5️⃣ Open a Pull Request
 
-Every contribution helps make MedilQ better.
+Your contributions help improve MedilQ for the developer community.
 
 ---
 
@@ -423,7 +391,7 @@ Every contribution helps make MedilQ better.
 
 This project is licensed under the **MIT License**.
 
-See the **LICENSE** file for more information.
+Feel free to use, modify, and distribute this project in accordance with the license terms.
 
 ---
 
@@ -431,18 +399,20 @@ See the **LICENSE** file for more information.
 
 ## Tanmay Yenpure
 
-**Computer Engineering Student | Full Stack Developer | Java Developer | Open Source Enthusiast**
+**Computer Engineering Student • Full Stack Developer • Java Developer • Open Source Enthusiast**
 
 Passionate about building scalable software solutions that solve real-world business problems through clean architecture, efficient database design, and modern software engineering practices.
 
-### 💻 Skills
+### 🛠 Skills
 
-- Java Development
-- Full Stack Development
-- Database Design
-- Software Engineering
-- Git & GitHub
-- HTML • CSS • JavaScript • MySQL
+* ☕ Java
+* 🗄️ MySQL
+* 🌐 HTML5
+* 🎨 CSS3
+* ⚡ JavaScript
+* 🔧 Git & GitHub
+
+---
 
 ### 🔗 Connect
 
@@ -452,11 +422,11 @@ https://github.com/Tanyyy-27
 
 ---
 
-# ⭐ Repository Support
+# ⭐ Support the Project
 
-If you found this project useful,
+If you found **MedilQ** useful or interesting,
 
-please consider giving it a ⭐ on GitHub.
+please consider giving this repository a ⭐ on GitHub.
 
 Your support motivates continuous improvements and future open-source contributions.
 
@@ -464,7 +434,7 @@ Your support motivates continuous improvements and future open-source contributi
 
 <div align="center">
 
-<img src="./assets/medilq-logo.svg" width="90"/>
+<img src="./assets/medilq-logo.svg" alt="MedilQ Logo" width="90">
 
 # MedilQ
 
@@ -474,10 +444,6 @@ Your support motivates continuous improvements and future open-source contributi
 
 Made with ❤️ by **Tanmay Yenpure**
 
-© 2026 MedilQ. All Rights Reserved.
-
 </div>
-````
-
 
 
