@@ -1,0 +1,20 @@
+# Java
+*.class
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node (if used later)
+node_modules/

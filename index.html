@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MedilQ Inventory Management</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="home-page" class="page page-home active">
+    <header class="intro-header">
+      <div class="brand">
+        <img src="assets/medilq-logo.svg" alt="MedilQ logo" class="brand-logo">
+        <div>
+          <h1>MedilQ</h1>
+          <p>Inventory Management</p>
+        </div>
+      </div>
+      <button class="btn btn-outline" type="button" onclick="showLogin()">Login</button>
+    </header>
+
+    <main class="intro-main">
+      <section class="intro-copy">
+        <div class="eyebrow">MedilQ store operations</div>
+        <h2>Clean inventory control for a faster pharmacy desk.</h2>
+        <p>
+          Track medicine stock, suppliers, low inventory, pricing, and reports
+          from a simple professional dashboard built for daily store use.
+        </p>
+        <div class="intro-actions">
+          <button class="btn btn-primary" type="button" onclick="showLogin()">Login to MedilQ</button>
+        </div>
+      </section>
+
+      <section class="intro-panel" aria-label="MedilQ preview">
+        <div class="preview-top">
+          <span></span><span></span><span></span>
+        </div>
+        <div class="preview-title">Today Overview</div>
+        <div class="preview-grid">
+          <div><strong id="preview-meds">9</strong><span>Medicines</span></div>
+          <div><strong id="preview-suppliers">9</strong><span>Suppliers</span></div>
+          <div><strong id="preview-low">3</strong><span>Low Stock</span></div>
+        </div>
+        <div class="preview-table">
+          <div><span>Mecobion-OD</span><b>In Stock</b></div>
+          <div><span>Metxl-25</span><b class="warn">Low Stock</b></div>
+          <div><span>Tiger Balm</span><b>In Stock</b></div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <div id="login-page" class="page page-login">
+    <div class="login-shell">
+      <button class="back-link" type="button" onclick="showHome()">Back</button>
+      <div class="login-box">
+        <div class="login-logo">
+          <img src="assets/medilq-logo.svg" alt="MedilQ logo" class="brand-logo">
+          <div>
+            <h2>MedilQ</h2>
+            <p>Secure administrator access</p>
+          </div>
+        </div>
+
+        <h3>Login</h3>
+        <p class="login-sub">Enter your credentials to continue.</p>
+
+        <div class="form-group">
+          <label for="login-user">Username</label>
+          <input type="text" id="login-user" placeholder="Username" autocomplete="off">
+        </div>
+
+        <div class="form-group">
+          <label for="login-pass">Password</label>
+          <input type="password" id="login-pass" placeholder="Password" onkeydown="if(event.key==='Enter') doLogin()">
+        </div>
+
+        <button class="btn btn-primary" type="button" onclick="doLogin()">Login</button>
+        <div class="err-msg" id="login-err"></div>
+      </div>
+    </div>
+  </div>
+
+  <div id="main-page" class="page page-app">
+    <aside class="sidebar">
+      <div class="sidebar-logo">
+        <img src="assets/medilq-logo.svg" alt="MedilQ logo" class="brand-logo small">
+        <div>
+          <h2>MedilQ</h2>
+          <p>Inventory Management</p>
+        </div>
+      </div>
+
+      <div class="sidebar-section">Dashboard</div>
+      <button class="nav-item active" type="button" onclick="showSection('dashboard',this)">Dashboard</button>
+
+      <div class="sidebar-section">Medicine</div>
+      <button class="nav-item" type="button" onclick="showSection('add-medicine',this)">Add Medicine</button>
+      <button class="nav-item" type="button" onclick="showSection('medicine-list',this)">Medicine Stock</button>
+      <button class="nav-item" type="button" onclick="showSection('search-medicine',this)">Search Medicine</button>
+
+      <div class="sidebar-section">Supplier</div>
+      <button class="nav-item" type="button" onclick="showSection('add-supplier',this)">Add Supplier</button>
+      <button class="nav-item" type="button" onclick="showSection('supplier-list',this)">Supplier List</button>
+      <button class="nav-item" type="button" onclick="showSection('search-supplier',this)">Search Supplier</button>
+
+      <div class="sidebar-section">Reports</div>
+      <button class="nav-item" type="button" onclick="showSection('reports',this)">Reports</button>
+      <button class="nav-item" type="button" onclick="showSection('about',this)">About</button>
+
+      <div class="sidebar-footer">
+        <button class="logout-btn" type="button" onclick="doLogout()">Logout</button>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <div class="topbar">
+        <div>
+          <div class="topbar-title" id="topbar-title">Dashboard</div>
+          <div class="topbar-sub" id="topbar-sub">Welcome to MedilQ Inventory Management</div>
+        </div>
+        <div class="topbar-right">
+          <span class="badge badge-green">System Online</span>
+          <span id="topbar-date"></span>
+        </div>
+      </div>
+      <div class="content-area" id="content-area"></div>
+    </main>
+  </div>
+
+  <div class="modal-overlay" id="confirm-modal">
+    <div class="modal">
+      <h3>Confirm Delete</h3>
+      <p>Are you sure you want to delete this record? This action cannot be undone.</p>
+      <div class="modal-btns">
+        <button class="btn btn-ghost" type="button" onclick="closeModal()">Cancel</button>
+        <button class="btn btn-danger" type="button" id="confirm-yes">Delete</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast-container" id="toast-container"></div>
+  <script src="js/app.js"></script>
+</body>
+</html>
