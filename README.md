@@ -67,11 +67,10 @@ Built using Java, MySQL, HTML, CSS, and JavaScript, MedilQ demonstrates modular 
 </p>
 
 ---
-
 ## 💊 Medicine Management
 
 <p align="center">
-<img src="./screenshots/medicine-management.png" width="900">
+  <img src="./screenshots/medicine-management system.png" alt="Medicine Management System" width="900">
 </p>
 
 ---
